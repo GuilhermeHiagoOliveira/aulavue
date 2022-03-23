@@ -4,10 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet" />
+    @routes
     <script src="{{ mix('/js/app.js') }}" defer></script>
     <title>Beer And Code</title>
   </head>
-  <body>
+  <body class="bg-gray-300">
     <div>@inertia</div>
-  </body>
+  </body> 
 </html>
